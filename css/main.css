@@ -34,6 +34,7 @@ header {
 }
 
 #column-1 {
+  width: 100%;
   background: peachpuff;
 }
 
@@ -73,10 +74,14 @@ footer {
 
   #column-3 {
     background-color: purple;
+    width: 100%;
   }
 
   footer {
     background-color: violet;
+  }
+  .col-3 {
+    width: 50%;
   }
   
 }
@@ -98,10 +103,15 @@ footer {
 
   #column-3 {
     background-color: yellow;
+    width: 33.3%;
   }
 
   footer {
     background-color: black;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
